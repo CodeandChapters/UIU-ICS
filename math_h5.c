@@ -31,7 +31,7 @@ int main()
         x1 = -b / (2 * a);
         x2 = x1;
 
-        printf("x1=%.2lf\nx2=%.2lf", x1, x2);
+        printf("x1=x2=%.2lf", x1, x2);
     }
     else
     {
