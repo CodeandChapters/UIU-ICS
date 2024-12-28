@@ -10,7 +10,7 @@ int main()
 
     long long int lli_num = 12345432122;
 
-    long double ld_num = 3.14;
+    long double ld_num = 1.1E+10;
 
     short int si_num = 31577;
 
