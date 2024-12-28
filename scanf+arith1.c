@@ -9,7 +9,12 @@ int main()
     int inum;
     float fnum;
 
-    scanf("%d%f", &inum, &fnum);
+    printf("Enter an integer number:");
+    scanf("%d",&inum);
+
+    printf("Enter a floating point number:");
+    scanf("%f",&fnum);
+    
     printf("Integer value:%d\nFloating point value:%f", inum, fnum);
 
     return 0;
