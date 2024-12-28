@@ -8,7 +8,12 @@ int main()
 
     float num1, num2;
 
-    scanf("%f%f", &num1, &num2);
+    printf("Enter the first floating point number:");
+    scanf("%f",&num1);
+
+    printf("Enter the second floating point number:");
+    scanf("%f",&num2);
+    
     printf("%.3f+%.3f=%.3f\n", num1, num2, (num1 + num2));
     printf("%.3f-%.3f=%.3f\n", num1, num2, (num1 - num2));
     printf("%.3f*%.3f=%.6f\n", num1, num2, (num1 * num2));
