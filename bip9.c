@@ -4,7 +4,7 @@ initialize them with values and print them.
 */
 
 #include <stdio.h>
-#include <stdbool.h> //learned from W3school that C doesn't have a built in bool data type.Have to import <stdbool.h> header file.
+#include <stdbool.h>
 int main()
 {
 
@@ -12,10 +12,10 @@ int main()
     bool bvalue;
 
     dnum = 3.14;
-    bvalue = true; // boolean variable takes true or false as value
+    bvalue = true;
 
-    printf("The double value:%e\n", dnum);    // just googled how to print in scientific notation
-    printf("The boolean value:%d", bvalue); // boolean values are returned as integers,therefore using %d format specifier
+    printf("The double value:%e\n", dnum);    
+    printf("The boolean value:%d", bvalue); 
 
     return 0;
 }
