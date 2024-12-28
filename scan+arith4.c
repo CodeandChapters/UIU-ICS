@@ -6,7 +6,17 @@ them using scanf, and calculate a * b + (a – c) / d + b.
 int main()
 {
     int a, b, c, d;
-    scanf("%d%d%d%d", &a, &b, &c, &d);
+    printf("Enter the first integer:");
+    scanf("%d",&a);
+
+    printf("Enter the second integer:");
+    scanf("%d",&b);
+
+    printf("Enter the third integer:");
+    scanf("%d",&c);
+
+    printf("Enter the fourth ineteger:");
+    scanf("%d",&d);
 
     printf("%d*%d+(%d-%d)/%d+%d=%d", a, b, a, c, d, b, (a * b + (a - c) / d + b));
 
