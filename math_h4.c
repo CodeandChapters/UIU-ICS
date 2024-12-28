@@ -18,7 +18,7 @@ int main()
   double u, a, s;
 
   printf("Enter the initial velocity:");
-  scanf("%d", &u);
+  scanf("%lf", &u);
 
   printf("Enter the acceleration:");
   scanf("%lf", &a);
@@ -28,7 +28,7 @@ int main()
 
   double v = sqrt(pow(u, 2) + 2 * a * s);
 
-  printf("The terminal velocity:%lf", v);
+  printf("The terminal velocity:%.2lf", v);
 
   return 0;
 }
