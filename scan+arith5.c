@@ -7,7 +7,18 @@ int main()
 {
 
     float a, b, c, d;
-    scanf("%f%f%f%f", &a, &b, &c, &d);
+    printf("Enter the first floating point number:");
+    scanf("%f",&a);
+
+    printf("Enter the second floating point number:");
+    scanf("%f",&b);
+
+    printf("Enter the third floating point number:");
+    scanf("%f",&c);
+
+    printf("Enter the fourth floating point number:");
+    scanf("%f",&d);
+
 
     printf("(%.1f+%.1f-%.1f)*%.1f-%.1f/%.1f=%.6f", a, b, c, d, a, d, (a + b - c) * d - a / d);
 
